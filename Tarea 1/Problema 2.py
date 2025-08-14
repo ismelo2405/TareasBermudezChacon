@@ -5,7 +5,7 @@ def multiplo_2(base, multiplo):
     0 -> Éxito
     1 -> 'base' o 'multiplo' no son enteros positivos
     2 -> 'multiplo' no es uno de [1, 2, 4, 8, 16]
-    En caso que se de un código distinto a 0, se devuelve el parametro cantidad como NONE
+    En caso que se de un código distinto a 0, se devuelve el parametro resultado como NONE
     """
 
     # --- Verificación 1 ---
@@ -47,3 +47,4 @@ print(" ------------------------------------------------------------ ")
 print(multiplo_2(5, 4))     # (0, 20) -> Éxito
 print(multiplo_2("5", 4))   # (1, None) -> no es entero positivo
 print(multiplo_2(5, 3))     # (2, None) -> múltiplo no válido
+
